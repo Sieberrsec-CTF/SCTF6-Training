@@ -12,6 +12,8 @@ This repository hosts the challenges provided during training.
 | Challenge Name | Summary |
 | --- | --- |
 | picoCTF 2019 - strings it (modified) | Linux CLI: wget, chmod, executables, strings, grep |
+| picoMini 2022 - Serpentine (modified) | Linux CLI: zip, python, vim/nano |
+| napping cat | netcat |
 
 ### Cryptography
 

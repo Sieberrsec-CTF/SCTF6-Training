@@ -1,6 +1,6 @@
 [config]
 url = https://training.sieberr.live
-access_token = ctfd_e11f84b7f740be3d24fe4e832512e59d8f45ec61ed15de131b80ff2156eb26b9
+access_token = PLACEHOLDER_TOKEN
 
 [challenges]
 general-skills/napping-cat/ = general-skills/napping-cat/

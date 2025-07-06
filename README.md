@@ -2,8 +2,7 @@
 
 Welcome to our Sieberrsec CTF training guide! This is intended for beginners to CTFs.
 
-This repository hosts the challenges provided during training. 
-
+This repository hosts the challenges provided during training.
 
 ## Challenge List
 
@@ -19,6 +18,10 @@ This repository hosts the challenges provided during training.
 
 | Challenge Name | Summary |
 | --- | --- |
+| Baby RSA | python, RSA |
+| Baby Diffie Hellman | python, Diffie Hellman |
+| Baby Math | python, Chinese Remainder Theorem |
+| Baby Ciphers | python, base64, atbash, morse, ROT-13 |
 
 ### Forensics
 
@@ -34,6 +37,8 @@ This repository hosts the challenges provided during training.
 
 | Challenge Name | Summary |
 | --- | --- |
+| picoCTF 2022 - bloat.py (modified) | python, obfuscation|
+| picoCTF 2023 - timer | APK, Linux CLI: grep, strings, unzip |
 
 ### Web
 

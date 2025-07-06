@@ -1,0 +1,22 @@
+name: Sync CTF Challenges
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+    # download repo onto runner + install python
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    - name: Install and sync
+      env:
+        CTFD_URL: ${{ secrets.CTFD_URL }}
+        CTFD_TOKEN: ${{ secrets.CTFD_TOKEN }}
+      run: |
+        pip install https://github.com/CTFd/ctfcli/releases/tag/0.1.3
+        ctf challenge install
+        ctf challenge sync

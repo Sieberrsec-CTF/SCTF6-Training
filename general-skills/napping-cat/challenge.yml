@@ -18,5 +18,5 @@ connection_info: nc chal1.sieberr.live 12344
 
 # do not edit these
 type: standard
-value: 100
+value: 1000
 state: visible

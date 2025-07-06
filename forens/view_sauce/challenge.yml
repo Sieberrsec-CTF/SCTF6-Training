@@ -1,0 +1,20 @@
+name: training
+author: caesar
+attribution: caesar
+category: Forensics
+description: "the lag n crash committee has been hard at work creating materials for their ctf. they have to post their last poster but they cant seem to remember the software they used to design it, and what platform they were planning to post it on. please send help! flag format: `sctf{software_socialmedianame}`, e.g., `sctf{photoshop_twitter}`"
+
+flags:
+  - sctf{canva_instagram}
+files:
+  - dist/LNC Poster.png
+
+# optional
+# attempts: 10 # max number of flag submission attempts
+# requirements:
+#   - {{chall name here that needs to be solved to unlock this challenge}}
+
+# do not edit these
+type: standard
+value: 1000
+state: visible

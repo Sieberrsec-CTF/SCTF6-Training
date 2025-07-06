@@ -17,6 +17,6 @@ jobs:
         CTFD_URL: ${{ secrets.CTFD_URL }}
         CTFD_TOKEN: ${{ secrets.CTFD_TOKEN }}
       run: |
-        pip install https://github.com/CTFd/ctfcli/releases/tag/0.1.3
+        pip install https://github.com/CTFd/ctfcli/archive/refs/tags/0.1.3.zip
         ctf challenge install
         ctf challenge sync

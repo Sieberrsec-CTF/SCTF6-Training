@@ -1,0 +1,14 @@
+[config]
+url = https://training.sieberr.live
+access_token = PLACEHOLDER_TOKEN
+
+[challenges]
+general-skills/napping-cat/ = general-skills/napping-cat/
+general-skills/serpentine/ = general-skills/serpentine/
+general-skills/strings-it/ = general-skills/strings-it/
+re/bloat = re/bloat
+crypto/Baby Math = crypto/Baby Math
+crypto/Baby_Ciphers/ = crypto/Baby_Ciphers/
+crypto/Baby_Diffie_Hellman/ = crypto/Baby_Diffie_Hellman/
+crypto/Baby_RSA = crypto/Baby_RSA
+

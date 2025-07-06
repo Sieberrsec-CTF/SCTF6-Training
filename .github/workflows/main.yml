@@ -1,0 +1,23 @@
+name: Sync CTF Challenges
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  sync_challenges:
+    runs-on: ubuntu-latest
+    steps:
+    # download repo onto runner + install python
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    - name: Install and sync
+      env:
+        CTFD_ACCESS_TOKEN: ${{ secrets.CTFD_ACCESS_TOKEN }}
+      run: |
+        pip install https://github.com/CTFd/ctfcli/archive/refs/tags/0.1.3.zip
+        sed -i "s/^access_token = PLACEHOLDER_TOKEN$/access_token = $CTFD_ACCESS_TOKEN/" .ctf/config
+        # this may fail because some challenges are already installed but that's ok
+        ctf challenge install || true
+        ctf challenge sync

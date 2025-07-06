@@ -10,6 +10,7 @@ description: 'Find the napping cat! I heard he may have a flag if you treat him 
 flags:
 - sctf{n3tc4+_i5_n4pPin9}
 
+connection_info: nc chal1.sieberr.live 12344
 # optional
 # attempts: 10 # max number of flag submission attempts
 # requirements:

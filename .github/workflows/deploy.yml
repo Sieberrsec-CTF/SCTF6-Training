@@ -1,0 +1,30 @@
+# .github/workflows/deploy.yml
+name: Deploy challenges to droplet
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy to server
+      uses: appleboy/ssh-action@v1.0.3
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.SSH_KEY }}
+        port: 22
+        script: |
+          set -e
+          echo "Logged in by SSH"
+          
+          cd SCTF6-Training
+          git pull
+          echo "Updated to latest repo"
+          docker compose down
+          
+          echo "Building and restarting containers..."
+          docker compose up -d --build
+          echo "Container status:"
+          docker compose ps

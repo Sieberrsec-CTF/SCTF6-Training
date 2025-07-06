@@ -1,6 +1,14 @@
 [config]
-url = training.sieberr.live
+url = https://training.sieberr.live
 access_token = ctfd_e11f84b7f740be3d24fe4e832512e59d8f45ec61ed15de131b80ff2156eb26b9
 
 [challenges]
+general-skills/napping-cat/ = general-skills/napping-cat/
+general-skills/serpentine/ = general-skills/serpentine/
+general-skills/strings-it/ = general-skills/strings-it/
+re/bloat = re/bloat
+crypto/Baby Math = crypto/Baby Math
+crypto/Baby_Ciphers/ = crypto/Baby_Ciphers/
+crypto/Baby_Diffie_Hellman/ = crypto/Baby_Diffie_Hellman/
+crypto/Baby_RSA = crypto/Baby_RSA
 

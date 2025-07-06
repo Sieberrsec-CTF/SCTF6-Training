@@ -15,7 +15,7 @@ files: # remove this if you are not giving any files to players
 #   - {{chall name here that needs to be solved to unlock this challenge}}
 
 # do not edit these
-type: fixed
+type: standard
 value: 1000
 state: visible
 connection_info: xx

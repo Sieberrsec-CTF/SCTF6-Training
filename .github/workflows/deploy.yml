@@ -2,7 +2,8 @@
 name: Deploy challenges to droplet
 
 on:
-  workflow_dispatch:
+  push:
+    branches: [ main ]
 
 jobs:
   deploy:

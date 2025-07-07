@@ -29,6 +29,24 @@ tags:
 ``` 
 filename must exist or ctfcli will crash 
 
+
+#### For challenges that need to be hosted:
+- `Dockerfile` and `docker-compose.yml` must be present
+- Test if `docker compose up` can spin up the challenges before submitting
+- Add the content `your_challenge_category/your_challenge_name/docker-compose.yml` to `docker-compose.yml` 
+Example add on:
+```
+services:
+  yadayadayada:
+    blah blah blah 
+# add this part
+  general-napping_cat:
+    container_name: general-napping_cat
+    build:  general-skills/napping-cat/src # remember to change this
+    ports:
+      - 12344:5000 # use port 5000 if you are using pwn.red 
+    privileged: true  # uncomment this if you are using pwn.red 
+``` 
 ### 2. Update `.ctf/config` file
 If you created a new challenge (eg. `general-skills/napping-cat/`) Add this line to the end of `.ctf/config`
 ```

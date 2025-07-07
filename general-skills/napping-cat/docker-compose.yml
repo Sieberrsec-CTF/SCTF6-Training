@@ -1,5 +1,5 @@
 services:
-  challenge:
+  general-napping_cat:
     container_name: general-napping_cat
     build: src
     ports:

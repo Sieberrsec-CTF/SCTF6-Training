@@ -6,7 +6,7 @@ description: 'After the recent break ins into our headquarters, we have improved
 flags:
 - sctf{st0p_br34k1n9_1n_9uy5}
 files: # remove this if you are not giving any files to players
-- dist/headquarters_improved.zip
+- dist/headquarters-improved.zip
 
 # optional
 # attempts: 10 # max number of flag submission attempts

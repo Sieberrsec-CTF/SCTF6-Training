@@ -35,8 +35,8 @@ This repository hosts the challenges provided during training.
 | Challenge Name | Summary |
 | --- | --- |
 | Sieberrsec CTF 5.0 - Introduction to Pwntools | pwntools |
-| Sieberrsec CTF 5.0 - Headquarters | Buffer overflow to variable overwrite |
-| Sieberrsec CTF 5.0 - Headquaters Improved | Buffer overflow to ret2win |
+| Sieberrsec CTF 5.0 - Headquarters | buffer overflow to variable overwrite |
+| Sieberrsec CTF 5.0 - Headquarters Improved | buffer overflow to ret2win |
 
 ### Re
 

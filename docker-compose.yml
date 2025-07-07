@@ -5,3 +5,22 @@ services:
     ports:
       - 12344:5000 # use port 5000 if you are using pwn.red 
     privileged: true  # uncomment this if you are using pwn.red 
+  pwn-intro_pwntools:
+    container_name: pwn-intro_pwntools
+    build: pwn/intro-to-pwntools/src
+    ports:
+      - 10002:5000 # use port 5000 if you are using pwn.red 
+    privileged: true  # uncomment this if you are using pwn.red 
+  pwn-headquarters:
+    container_name: pwn-headquarters
+    build: pwn/headquarters/src
+    ports:
+      - 10003:5000 # use port 5000 if you are using pwn.red 
+    privileged: true  # uncomment this if you are using pwn.red 
+  pwn-headquaters_improved:
+    container_name: pwn-headquarters_improved
+    build: pwn/headquarters-immproved/src
+    ports:
+      - 10004:5000 # use port 5000 if you are using pwn.red 
+    privileged: true  # uncomment this if you are using pwn.red 
+  

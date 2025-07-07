@@ -27,6 +27,8 @@ This repository hosts the challenges provided during training.
 
 | Challenge Name | Summary |
 | --- | --- |
+| whisperers | network analysis, wireshark |
+| view_sauce | image metadata |
 
 ### Pwn
 

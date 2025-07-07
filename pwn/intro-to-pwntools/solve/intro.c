@@ -14,6 +14,10 @@ void print_flag()
 
 int calculate() 
 {   
+    setbuf(stdin, 0);
+    setbuf(stdout, 0);
+    setbuf(stderr, 0);
+    
     int n1 = rand()%1000;
     int n2 = rand()%1000;
     int input;

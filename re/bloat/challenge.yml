@@ -1,7 +1,7 @@
 name: picoCTF 2022 - bloat.py (modified)
 author: yeobl
 attribution: yeobl
-category: re
+category: Re
 description: 'Run the Python program bloat.py in the same directory as the encrypted flag flag.txt.enc.'
 
 flags:

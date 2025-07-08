@@ -6,7 +6,7 @@ This challenge serves as an introduction to pwntools, a python module frequently
 
 To install pwntools, do `pip install pwntools`. 
 
-We will be using pwntools in order to interact with the challenge here: `nc xxx`.
+We will be using pwntools in order to interact with the challenge here: `nc chal1.sieberr.live 10002`.
 
 In this challenge, you will be solving mathematical equations. More information is found when you connect to the remote instance.
 

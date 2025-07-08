@@ -10,7 +10,7 @@ description: 'Practice your command line skills!
   
   _Concepts: wget, chmod, executables, strings, grep_'
 flags:
-- sctf{wUt_d4_5tr1NgS_!?!}}
+- sctf{wUt_d4_5tr1NgS_!?!}
 files: # remove this if you are not giving any files to players
 - dist/strings
 

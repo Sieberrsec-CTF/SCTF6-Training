@@ -23,4 +23,18 @@ services:
     ports:
       - 10004:5000 # use port 5000 if you are using pwn.red 
     privileged: true  # uncomment this if you are using pwn.red 
-  
+  web-sql:
+    container_name: web-sql
+    build: web/sieberrsec-query-lobby/src
+    ports:
+      - 10012:8000
+  web-local_authority:
+    container_name: web-local_authority
+    build: web/local-authority/src
+    ports:
+      - 10010:10010 
+  web-power_cookie:
+    container_name: web-power_cookie
+    build: web/power-cookie/src
+    ports:
+      - 10011:10011 

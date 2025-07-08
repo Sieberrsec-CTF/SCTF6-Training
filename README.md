@@ -49,3 +49,6 @@ This repository hosts the challenges provided during training.
 
 | Challenge Name | Summary |
 | --- | --- |
+| picoCTF 2022 - Local Authority | inspector |
+| picoCTF 2022 - Power Cookie | modifying cookies |
+| Sieberrsec CTF 5.0 - Sieberrsec Query Lobby | SQL injection |

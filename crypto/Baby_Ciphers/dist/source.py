@@ -32,7 +32,7 @@ def to_morse(part):
 
 
 # Defining a flag of length 36, all letters are lowercase
-flag = 'sctf{k3yl355_c1ph3rs_4r3_n0t_s3cur3}'
+flag = 'sctf{redacted}'
 
 # Split the flag into 4 parts, each of equal length
 part_length = len(flag) // 4

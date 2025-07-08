@@ -2,7 +2,7 @@ from Crypto.Util.number import bytes_to_long, getPrime
 from random import randrange
 
 # flag has 39 characters
-flag = 'sctf{ch1n353_r3m41nd3r_th30r3m_1s_c00l}'
+flag = 'sctf{redacted}'
 flag_num = bytes_to_long(flag.encode())
 
 divisors = [getPrime(randrange(5, 30)) for _ in range(17)]

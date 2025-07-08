@@ -26,7 +26,7 @@ def decrypt(ct: int, shared_key : int):
     pt_bytes = unpad(pt_padded, AES.block_size)
     return pt_bytes.decode()
 
-flag = "sctf{this_is_a_fake_flag}"
+flag = "sctf{redacted}"
 
 # N is our modulus
 N = getPrime(1024)

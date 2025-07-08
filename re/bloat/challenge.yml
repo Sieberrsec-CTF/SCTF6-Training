@@ -18,4 +18,3 @@ files: # remove this if you are not giving any files to players
 type: standard
 value: 1000
 state: visible
-connection_info: xx

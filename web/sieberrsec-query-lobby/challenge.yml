@@ -17,4 +17,4 @@ files: # remove this if you are not giving any files to players
 type: standard
 value: 1000
 state: visible
-connection_info: nc chal1.sieberr.live 10012
+connection_info: http://chal1.sieberr.live:10012

@@ -15,4 +15,4 @@ flags:
 type: standard
 value: 1000
 state: visible
-connection_info: nc chal1.sieberr.live 10010
+connection_info: http://chal1.sieberr.live:10010

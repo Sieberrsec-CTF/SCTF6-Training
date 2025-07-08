@@ -4,6 +4,8 @@ Welcome to our Sieberrsec CTF training guide! This is intended for beginners to 
 
 This repository hosts the challenges provided during training.
 
+Access the accompanying training document [here](https://docs.google.com/document/d/1XOK_5Y6UB_qDsWUamHrE7bXUem8MfA1Oh0bdf0S7SI4/edit?usp=sharing).
+
 ## Challenge List
 
 ### General Skills

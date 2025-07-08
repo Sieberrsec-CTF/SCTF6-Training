@@ -2,7 +2,7 @@
 
 ## Description
 
-{{DESCRIPTION HERE}}
+Can you get the flag?
 
 ## Author
 
